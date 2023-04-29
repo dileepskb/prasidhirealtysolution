@@ -30,7 +30,7 @@ const Header = () => {
             <div className='col-sm-2 col-5'>
                 <div className='contactBtn'>
                     Call us<br />
-                    <span>+91 8368799968</span>
+                    <span>+91 +91 9315242836</span>
                 </div>
             </div>
         </div>
