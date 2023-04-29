@@ -385,7 +385,7 @@
   background-color: #3b44a1;
   padding: 130px 0px 25px;
 }
-.footerlogo{ filter: invert(1); max-width: 100px;}
+.footerlogo{max-width: 100px;}
 
 @media (max-width: 576px) {
   /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
