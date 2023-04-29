@@ -41,7 +41,7 @@ const Footer = () => {
 </p>
 <div className="mail_part">
 <input type="text" placeholder="Email Address" className="placeholder hide-on-focus" />
-<a href="" className="email_icon"><i className="far fa-paper-plane"></i></a>
+<a href="" className="email_icon"><i className="fa fa-paper-plane"></i></a>
 </div>
 </div>
 </div>

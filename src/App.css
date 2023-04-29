@@ -22,7 +22,7 @@
 /* ralph-ravi-kayden-vbSRUrNm3Ik-unsplash.jpg */
 .closebtn,.barbtn{ display: none;}
 @media (max-width: 767px) {
-  .closebtn{  outline: none; border: none; background: #444; color:#fff; margin-top: 50px; margin-bottom: 30px; margin-left: 10px;}
+  .closebtn{ display: block; outline: none; border: none; background: #444; color:#fff; margin-top: 50px; margin-bottom: 30px; margin-left: 10px;}
   .menus{transition: .3s; display: block; position:fixed; width: 250px; right: -250px; top: 0; margin: 0; height: 100%; background: #3b44a1;}
   .menus ul li{ display: block;}
   .menus ul li a{ color: #fff;}
