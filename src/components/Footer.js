@@ -17,9 +17,9 @@ const Footer = () => {
 <div className="col-sm-6 col-lg-3">
 <div className="single_footer_part">
 <h4>Contact Info</h4>
-<p>Address :1415, 14TH FLOOR,GALLERIA MARKET,GURGAON-122001</p>
-<p>Phone : +91 9999201310</p>
-<p>Email : shweta.prasidhi@gmail.com</p>
+<p>Address : Q5/2 DLF PHASE 2 GURGAON</p>
+<p>Phone : +91 8368799968</p>
+<p>Email : prasidhirealitysolutions@gmail.com</p>
 </div>
 </div>
 <div className="col-sm-6 col-lg-3">

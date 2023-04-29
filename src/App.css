@@ -3,34 +3,34 @@
 .menus{ float: right; margin: 30px 0 0;}
 .menus ul{ list-style: none; margin: 0; padding: 0;}
 .menus ul li{ display: inline-block; padding: 0 15px;}
-.menus ul li a{ display:block; text-transform: uppercase; font-size: 16px; color: #000; text-decoration: none; }
-.contactBtn{ font-size: 14px; background: #000; color: #fff; border-radius: 5px; padding: 10px; margin-top: 6px;}
+.menus ul li a{ display:block; text-transform: uppercase; font-size: 16px; color: #3b44a1; text-decoration: none; }
+.contactBtn{ font-size: 14px; background: #3b44a1; color: #fff; border-radius: 5px; padding: 10px; margin-top: 6px;}
 .contactBtn span{ font-size: 20px; font-weight: 700;}
 
 .banner{position: relative; height:calc(100vh - 90px); margin-top: 90px;}
 .bannerText{ position: absolute; top: 50%; transform: translateY(-50%); width: 50%;}
 .bannerText h1{ font-weight: 700; font-size: 60px; margin: 0;}
-.bannerText a{ background: #000; color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; font-weight: 700; margin-top: 20px; font-size: 20px;}
+.bannerText a{ background: #3b44a1; color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; font-weight: 700; margin-top: 20px; font-size: 20px;}
 .banner:before{ position:absolute; content: "";  right: 0; top: 0; bottom: 0; width: 50%; background-size: cover; background-position: bottom left; background-image: url(../src/img/ralph-ravi-kayden-vbSRUrNm3Ik-unsplash.png);}
 
-.features{ background: #000; padding: 50px 0;}
+.features{ background: #3b44a1; padding: 50px 0;}
 .single_passion{ background-color: #fff;}
 .section_tittle{ text-align: center; color: #fff; margin-bottom: 30px;}
-.passion_icon{ text-align: center; font-size: 100px; color: #000;}
+.passion_icon{ text-align: center; font-size: 100px; color: #3b44a1;}
 .single_passion_item{ text-align: center; padding: 15px;}
-.btn_2{ background: #000; color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; margin-top: 15px;}
+.btn_2{ background: #3b44a1; color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; margin-top: 15px;}
 /* ralph-ravi-kayden-vbSRUrNm3Ik-unsplash.jpg */
 .closebtn,.barbtn{ display: none;}
 @media (max-width: 767px) {
   .closebtn{  outline: none; border: none; background: #444; color:#fff; margin-top: 50px; margin-bottom: 30px; margin-left: 10px;}
-  .menus{transition: .3s; display: block; position:fixed; width: 250px; right: -250px; top: 0; margin: 0; height: 100%; background: #000;}
+  .menus{transition: .3s; display: block; position:fixed; width: 250px; right: -250px; top: 0; margin: 0; height: 100%; background: #3b44a1;}
   .menus ul li{ display: block;}
   .menus ul li a{ color: #fff;}
   .menus.active{ right: 0; }
   .bannerText h1{ font-size: 16px;}
   .contactBtn{ padding: 5px; text-align: center; margin: 3px 0 0; font-size: 12px;}
   .contactBtn span{ font-size: 11px;}
-  .barbtn{  display: block; margin-top: 3px; margin-left: 15px; color: #000; border: 1px solid #000; outline: none; background-color: transparent; text-align: center; border-radius: 5px; height: 45px; width: 100%;}
+  .barbtn{  display: block; margin-top: 3px; margin-left: 15px; color: #3b44a1; border: 1px solid #3b44a1; outline: none; background-color: transparent; text-align: center; border-radius: 5px; height: 45px; width: 100%;}
   .banner{ height: auto; margin-top: 50px; padding: 50px 0; background-image: url(../src/img/mob_banner.webp); background-size: cover;}
   .banner:before{ display: none;}
   .mobileBanner{ margin-left: -.75rem; margin-right: -.75rem;}
@@ -382,7 +382,7 @@
 /**********************footer part css*******************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
 .footer_part {
-  background-color: #000;
+  background-color: #3b44a1;
   padding: 130px 0px 25px;
 }
 .footerlogo{ filter: invert(1); max-width: 100px;}
@@ -460,7 +460,7 @@
 
 /* line 48, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
 .footer_part .single_footer_part p {
-  color: #7f7f7f;
+  color: #fff;
   margin-bottom: 8px;
 }
 
@@ -471,7 +471,7 @@
 
 /* line 59, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a {
-  color: #7f7f7f;
+  color: #fff;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -566,8 +566,8 @@
 }
 
 /* line 141, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-.footer_part .copyright_text p a {
-  color: #cfb579;
+.footer_part .copyright_text p {
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
