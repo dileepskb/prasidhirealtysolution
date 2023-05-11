@@ -15,7 +15,7 @@ const About = () => {
           </div>
        </div>
        <section className="about">
-          <div className='container_fluid'>
+          <div className='container-fluid'>
               <div className='row'>
                   <div className='col-sm-6'>
                     <div className='AboutImg'>
