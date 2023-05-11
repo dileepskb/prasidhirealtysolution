@@ -3,8 +3,8 @@
 .header + .contentPlus{ margin-top: 95px;}
 .menus{ float: right; margin: 30px 0 0;}
 .menus ul{ list-style: none; margin: 0; padding: 0;}
-.menus ul li{ display: inline-block; padding: 0 15px;}
-.menus ul li a{ display:block; text-transform: uppercase; font-size: 16px; color: #3b44a1; text-decoration: none; }
+.menus ul li{ display: inline-block; padding: 0 20px;}
+.menus ul li a{ display:block;  font-size: 15px; color: #000;  text-decoration: none; }
 .contactBtn{ font-size: 14px; background: #3b44a1; color: #fff; border-radius: 5px; padding: 10px; margin-top: 6px;}
 .contactBtn span{ font-size: 20px; font-weight: 700;}
 
@@ -47,6 +47,16 @@
 .AboutFeatureText h2{ font-size: 30px; position: relative; display: inline-block; }
 .AboutFeatureText h2::before{ position: absolute; content: ""; top: 0; bottom: 0; margin: auto 0; right:-80px; width: 70px; height: 5px; background: #3b44a1;}
 
+/* Contact Us */
+.contactus{ padding: 50px 0;}
+.contactus h2{ font-size: 20px; font-weight: 700; margin-bottom: 15px;}
+.formbox{ margin-bottom: 15px;}
+.formbox input,.formbox textarea{ width: 100%; border: 1px solid #e7e7e7; padding: 10px 15px;}
+.submitbtn{ background: #3b44a1; color: #fff;  padding: 10px 45px; outline: none; border: none;}
+.contactIcon{ width: 50px; font-size: 32px; line-height: 0; color: #3b44a1; }
+.contectText{ width: calc(100% - 50px);}
+.contectText span{ font-weight: 700; color: #3b44a1;}
+.contectText a{ color: #000; text-decoration: none;}
 /* ralph-ravi-kayden-vbSRUrNm3Ik-unsplash.jpg */
 .closebtn,.barbtn{ display: none;}
 @media (max-width: 1200px) {
@@ -81,6 +91,9 @@
   .pagination .breadcrumb-item{ font-size: 14px;}
   .aboutContent{ margin-left: 0; margin-right: 0; margin-top: -100px;}
   .about_text{ position: relative; padding: 15px;}
+
+  .contactus{ padding: 30px 0;}
+  .contactDetails{ margin-top: 40px;}
 
 }
 /****************Room part css**************/

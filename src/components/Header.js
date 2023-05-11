@@ -24,14 +24,14 @@ const Header = () => {
                       <li><Link to='/'>Agents</Link></li>
                       <li><Link to='/'>Services</Link></li>
                       <li><Link to='/'>Blogs</Link></li>
-                      <li><Link to='/'>Contact Us</Link></li>
+                      <li><Link to='/contact'>Contact Us</Link></li>
                    </ul>
                 </div>
             </div>
             <div className='col-sm-2 col-5'>
                 <div className='contactBtn'>
                     Call us<br />
-                    <span>+91 9315242836</span>
+                    <span>+91 9999201310</span>
                 </div>
             </div>
         </div>
