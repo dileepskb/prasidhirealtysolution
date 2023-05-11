@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from './Home';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import  Home  from './containers/Home';
+import About from './containers/About';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <BrowserRouter>
       <Header />
           <Routes>
-             <Route path="/" element={<Home />} />
+             <Route exact path="/" element={<Home />} />
+             <Route exact path="/about" element={<About />} />
           </Routes>
           <Footer />
       </BrowserRouter>

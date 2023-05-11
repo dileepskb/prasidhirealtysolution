@@ -1,5 +1,6 @@
 
 .header{ padding: 5px 0; background: #fff; box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1); position: fixed; top:0; width: 100%; left: 0; z-index: 100;}
+.header + .contentPlus{ margin-top: 95px;}
 .menus{ float: right; margin: 30px 0 0;}
 .menus ul{ list-style: none; margin: 0; padding: 0;}
 .menus ul li{ display: inline-block; padding: 0 15px;}
@@ -7,7 +8,7 @@
 .contactBtn{ font-size: 14px; background: #3b44a1; color: #fff; border-radius: 5px; padding: 10px; margin-top: 6px;}
 .contactBtn span{ font-size: 20px; font-weight: 700;}
 
-.banner{position: relative; height:calc(100vh - 90px); margin-top: 90px;}
+.banner{position: relative; height:calc(100vh - 95px); }
 .bannerText{ position: absolute; top: 50%; transform: translateY(-50%); width: 50%;}
 .bannerText h1{ font-weight: 700; font-size: 60px; margin: 0;}
 .bannerText a{ background: #3b44a1; color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; font-weight: 700; margin-top: 20px; font-size: 20px;}
@@ -19,6 +20,32 @@
 .passion_icon{ text-align: center; font-size: 100px; color: #3b44a1;}
 .single_passion_item{ text-align: center; padding: 15px;}
 .btn_2{ background: #3b44a1; color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; margin-top: 15px;}
+
+.MainHeadingBox{ background: #3b44a1; text-align: center; padding: 50px 0;}
+.MainHeadingBox h1{ color: #fff;}
+.pagination{ display: inline-block;}
+.pagination .breadcrumb-item{ color: #fff;}
+.pagination .breadcrumb-item a{ color: #cfb579; text-decoration: none;}
+.breadcrumb-item+.breadcrumb-item::before{ color: #fff;}
+
+/* About Page */
+.about{ padding: 0px 0;}
+
+.aboutContent{ margin-left: -23.5px; height: 100%; position: relative; }
+.aboutContent:before{ position: absolute; content: ""; width: 70%; height: 40%; right: 0; background: url(./img/section_overlay.webp); }
+.about_text{ background: #e7e7e7;padding: 15px; position: absolute; bottom: 0; width: 100%; left: 0; padding: 80px;  }
+.about_text h2{ color: #3b44a1; font-weight: 700;}
+.about_text ul{ margin-top: 30px; padding: 0;}
+.about_text ul li{ margin: 0; padding: 0 0 0 20px; list-style: none; position: relative;}
+.about_text ul li:before{ position: absolute; content: ""; width: 10px; height: 10px; left: 0; top: 5px; background:#3b44a1;}
+.about_text h3{ font-size: 16px; font-weight: 700;}
+.about_text a{ background: #3b44a1; color: #fff; padding: 10px 20px; text-decoration: none; margin-top: 20px; display:inline-block;}
+
+.aboutFeature{ padding: 50px 0;}
+.AboutFeatureText{ margin-bottom: 40px;}
+.AboutFeatureText h2{ font-size: 30px; position: relative; display: inline-block; }
+.AboutFeatureText h2::before{ position: absolute; content: ""; top: 0; bottom: 0; margin: auto 0; right:-80px; width: 70px; height: 5px; background: #3b44a1;}
+
 /* ralph-ravi-kayden-vbSRUrNm3Ik-unsplash.jpg */
 .closebtn,.barbtn{ display: none;}
 @media (max-width: 767px) {

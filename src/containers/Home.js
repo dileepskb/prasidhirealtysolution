@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import img1 from "./img/kitchen-stove-sink-kitchen-counter-3497491.webp"
-import img2 from "./img/living-room-2732939_1920.webp"
+import img1 from "./../img/kitchen-stove-sink-kitchen-counter-3497491.webp"
+import img2 from "./../img/living-room-2732939_1920.webp"
 // import mobbanner from "./img/mob_banner.webp"
 
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
        <div className='banner'>
@@ -111,3 +111,4 @@ pharetra magnfauc bed</p>
     </div>
   )
 }
+export default Home;

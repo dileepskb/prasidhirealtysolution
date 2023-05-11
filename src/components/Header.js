@@ -5,6 +5,7 @@ import logo from './logo.webp'
 const Header = () => {
   const [nav, setNav ] = useState("");
   return (
+    <div>
     <div className='header'>
       <div className='container'>
         <div className="row">
@@ -19,7 +20,7 @@ const Header = () => {
                    <button className='closebtn' onClick={() => setNav("")}><i className='fa fa-close'></i></button>
                    <ul>
                       <li><Link to='/'>Home</Link></li>
-                      <li><Link to='/'>About Us</Link></li>
+                      <li><Link to='/about'>About Us</Link></li>
                       <li><Link to='/'>Agents</Link></li>
                       <li><Link to='/'>Services</Link></li>
                       <li><Link to='/'>Blogs</Link></li>
@@ -35,6 +36,8 @@ const Header = () => {
             </div>
         </div>
       </div>
+    </div>
+    <div className='contentPlus'></div>
     </div>
   )
 }
